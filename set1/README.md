@@ -1,9 +1,9 @@
 <details>
   <summary><b>Click to expand: Challenge 3 Write-up</b></summary>
   
-  ##Write- Up of Challenge 3
+  ## Write- Up of Challenge 3
   
-  In this challenge we are searching for one single character that if XORed with the hex string given, produces an english string that makes sense. 
+  🎯In this challenge we are searching for one single character that if XORed with the hex string given, produces an english string that makes sense. 
 
   The easiest approach is the brute force approach. Since we are searching for one character or one byte, that is 8 bits, so there are only 256 possible keys. The possible key is between 0 to 255. This is a small enough number that a computer can check every single one in a fraction of a millisecond. 
     
