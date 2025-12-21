@@ -1,3 +1,6 @@
+💡Here you can find the **explanation of the solver code** for every challenge:
+
+
 <details>
   <summary><b>📂 Click to expand: Challenge 3 Write-up (Single-byte XOR) </b></summary>
   
@@ -18,7 +21,7 @@
 </details>
 
 <details>
-  <summary><b>📂 Click to expand: Challenge 4 Write-up </b></summary>
+  <summary><b>📂 Click to expand: Challenge 4 Write-up (Detect single-character XOR) </b></summary>
   
   ## Write- Up of Challenge 4
   
