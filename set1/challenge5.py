@@ -1,3 +1,5 @@
+#Set 1, Challenge 5
+
 text = '''Burning 'em, if you ain't quick and nimble
 I go crazy when I hear a cymbal'''
 byte_text = text.encode('utf-8')
