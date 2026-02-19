@@ -1,4 +1,4 @@
-#Set 1, Challenge 3
+#Challenge 4 (S1C3)
 
 hex_string = '1b37373331363f78151b7f2b783431333d78397828372d363c78373e783a393b3736'
 binary_string = bytes.fromhex(hex_string)
@@ -37,5 +37,6 @@ def find_text(binary_text):
     print('The key is ' + chr(best_key) + ' and the XORed string is: ' + best_text)   
     
 find_text(binary_string)
+
 
 
