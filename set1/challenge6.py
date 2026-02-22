@@ -1,3 +1,5 @@
+#Challenge 6 (S1C6)
+
 import base64
 
 with open("6.txt", "r") as f:
