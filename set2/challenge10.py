@@ -36,11 +36,11 @@ def decrypt_cbc(ciphertext, key, iv):
 key = b"YELLOW SUBMARINE"
 iv = b"\x00" * 16  # Το IV είναι 16 μηδενικά bytes
     
-# Φόρτωση και Base64 decoding του αρχείου
+# Load file and base64 decoding
 with open("ciphertext_chall10.txt", "r") as f:
     ciphertext = base64.b64decode(f.read())
     
-# Εκτέλεση της αποκρυπτογράφησης
+# Decrypt the ciphertext
 decrypted_message = decrypt_cbc(ciphertext, key, iv)
     
 print("Decrypted Message:")
