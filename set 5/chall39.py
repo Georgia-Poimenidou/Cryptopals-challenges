@@ -1,3 +1,5 @@
+# Set 5, Challenge 39
+
 import random    
 
 def is_prime(a):
