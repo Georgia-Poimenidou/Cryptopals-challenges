@@ -1,8 +1,10 @@
+# Set 2, Challenge 12
+
 import base64
 from cryptography.hazmat.primitives.ciphers import Cipher, algorithms, modes
 from cryptography.hazmat.backends import default_backend
 
-# --- Setup the Oracle ---
+# Setup the Oracle
 SECRET_KEY = b"YELLOW SUBMARINE" # In reality, this is unknown
 UNKNOWN_STR = base64.b64decode(
     "Um9sbGluJyBpbiBteSA1LjAKV2l0aCBteSByYWctdG9wIGRvd24gc28gbXkg"
@@ -20,7 +22,7 @@ def oracle(user_input):
     encryptor = cipher.encryptor()
     return encryptor.update(plaintext) + encryptor.finalize()
 
-# --- The Attack ---
+# Implement the Attack
 def crack_ecb():
     block_size = 16
     decrypted_secret = b""
