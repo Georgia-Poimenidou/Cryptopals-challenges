@@ -1,4 +1,4 @@
-#Challenge 6 (S1C6)
+# Set 1, Challenge 6
 
 import base64
 
