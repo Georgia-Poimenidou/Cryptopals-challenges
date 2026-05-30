@@ -1,3 +1,5 @@
+# Set 1, Challenge 8
+
 def count_repetitions(hex_string):
     ciphertext = bytes.fromhex(hex_string)
     
