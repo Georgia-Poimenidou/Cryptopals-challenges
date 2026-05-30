@@ -1,4 +1,4 @@
-# Set 5, Challenge 40
+# Set 6, Challenge 40
 
 import random
 from Cryptodome.Util.number import getPrime
