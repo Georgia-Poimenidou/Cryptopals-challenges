@@ -1,4 +1,4 @@
-# Set 5, Challenge 39
+# Set 6, Challenge 39
 
 import random    
 
