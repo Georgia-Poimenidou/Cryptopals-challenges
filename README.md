@@ -8,7 +8,8 @@ While the thesis focuses on the mathematical foundations and theoretical vulnera
 
 The code is organized sequentially to match the chapters of the thesis, progressing from basic bitwise operations to advanced public-key exploitation.
 
-### **`Chapter_2_Stream_Ciphers/`** *Focuses on Encoding, XOR mechanics, Frequency Analysis, and Many-Time Pad attacks.*
+### **`Chapter_2_Stream_Ciphers/`** 
+*Focuses on Encoding, XOR mechanics, Frequency Analysis, and Many-Time Pad attacks.*
 * **Challenge 2.1 (S1C1):** Hex to Base64 Conversion
 * **Challenge 2.2 (S1C2):** Fixed XOR Operation
 * **Challenge 2.3 (S1C5):** Repeating-key XOR Encryption
